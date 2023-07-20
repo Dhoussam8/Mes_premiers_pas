@@ -1,0 +1,86 @@
+nav.menu-nav ul li.btn{
+    font-size: 1.1em;
+    display:inline-block;
+    
+    /* permet d'aligner les menus de navigation en ligne*/
+}
+
+nav.menu-nav ul li.btn a {
+    color: black;
+    background-color:rgb(106, 202, 237);
+    list-style-type: none;
+    /* permet de desactiver les puces d'une liste ordonnée*/
+    text-decoration: none;
+    padding: 25px;   
+    }
+
+    nav.menu-nav ul li.btn:hover a{
+        color: black;
+        background-color: white;
+        transition: 0.3s all;
+    }
+
+p { color: black;
+    font-family: Times New Roman, sans serif;
+font-size: 1em;
+text-align: justify;
+
+}
+
+h1 {color: white;
+font-family: Times New Roman, sans serif;
+font-size: 3em;
+text-align: center;
+padding: 20px;
+
+/* ceci pour permettre de gérer la taille de l'image en fond d'écran*/
+background-image: url(Logo_CADF.PNG) no-repeat;
+
+/* ceci pour permettre d'inser une image en fond d'écran sur une parte ou la totalité de la page*/
+background-position: top;
+
+/* ceci pour permettre de positionner l'image au centre (CENTER) ou en haut avec (TOP) ou en bas avec (bottom)*/
+background-attachment: fixed;
+
+/* ceci pour permettre de rendre l'élément fixe*/
+background: linear-gradient( to right, #000046, #1cb5e0);
+
+/* ceci pour permettre de faire un dégradé de couleur linéraire. Mais on peut aussi rajouter un sens du dégradé (TO RIGHT vers la droite / ou TO LEFT pour vers la gauche)*/
+background-size: 12px;
+opacity: 5;
+/* ceci pour permettre de modifier l'oppacité de l'image. il est compris entre 0 (très sombre) et 5 (très nette)*/
+
+}
+
+h2 { 
+    color: royalblue;
+    font-family: Times New Roman, sans serif;
+}
+
+h3 {
+    color: rgb(65, 65, 211);
+    font-family: Times New Roman, sans serif;
+}
+
+.ma-classe
+p, h2{
+    color: rosybrown;
+}
+
+.ma-classe-2
+p{
+    color: pink;
+    }
+
+.bienvenue {
+    font-family: Times New Roman, sans serif;
+    font-size: 1em;
+    color: blue;
+    text-decoration:dashed;
+    font-weight: 600;
+    }
+
+body {
+    background-color: #e4e7f0;
+   
+}
