@@ -11,7 +11,7 @@ nav.menu-nav ul li.btn a {
     list-style-type: none;
     /* permet de desactiver les puces d'une liste ordonnée*/
     text-decoration: none;
-    padding: 25px;   
+    padding: 5px;   
     }
 
     nav.menu-nav ul li.btn:hover a{
